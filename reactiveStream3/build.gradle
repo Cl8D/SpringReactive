@@ -19,8 +19,16 @@ repositories {
 }
 
 dependencies {
+	// netty - Spring Reactive Web
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+
+	// Spring Web
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// spring boot
 	implementation 'org.springframework.boot:spring-boot-starter'
+
+	// lombok
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
